@@ -1,0 +1,98 @@
+.loading {
+  font-size: 6rem;
+  color: #fff;
+  background-color: #ff9800;
+  border: none;
+  width: 500px;
+  height: 80px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container > h1 {
+  font-family: "BlinkMacSystemFont";
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  padding-top: 150px;
+  color: rgb(32, 35, 41);
+  font-weight: 900;
+  font-size: 6.5rem;
+  margin-bottom: 60px;
+}
+
+/* #ff9800 */
+
+.cartoon-cards {
+  display: flex;
+  background-color: #3b3e43;
+  width: 700px;
+  height: 290px;
+  border-radius: 8px;
+  margin: 30px;
+  transition: transform 0.5s ease;
+}
+
+.cartoon-cards:hover {
+  box-shadow: 0.5px 2.3px 22.6px rgba(255, 255, 255, 0.247),
+    1.3px 6.3px 62.6px rgba(255, 255, 255, 0.247);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.cartoon-cards > img {
+  border-radius: 10px 0px 0px 10px;
+  height: 290px;
+  width: 280px;
+}
+
+.cards-data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.cards-data > h3 {
+  color: #fff;
+  font-weight: normal;
+}
+.cards-data h3:hover {
+  color: #ff9800;
+}
+
+.cards-data h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.cards-data h2:hover {
+  color: #ff9800;
+}
+
+.cards-data span {
+  color: #9e9e9e;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.cards-data p {
+  color: #fff;
+  margin-left: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.cards-data > div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
